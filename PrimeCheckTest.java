@@ -26,8 +26,7 @@ public class PrimeCheckTest {
 
     for (int i = 0 ; i < primes.length; i++) {
 
-      assertEquals("Test prime numbers " + i, true, PrimeCheck.isPrime(i));
-
+      assertEquals("Test prime numbers " + primes[i], true, PrimeCheck.isPrime(primes[i]));
     }
   }
 
@@ -38,7 +37,7 @@ public class PrimeCheckTest {
 
     for( int i = 0 ; i < nonPrimes.length; i++){
 
-      assertEquals("Test non-prime numbers" + i, false , PrimeCheck.isPrime(i));
+      assertEquals("Test non-prime numbers" + nonPrimes[i], false , PrimeCheck.isPrime(nonPrimes[i]));
       
     }
   }
