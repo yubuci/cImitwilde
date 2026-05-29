@@ -34,7 +34,7 @@ public class PrimeCheckTest {
   // --------------------------------------------------------------- //
   @Test
   public void testNonPrimes() {
-    int[] nonPrimes = {4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25}
+    int[] nonPrimes = {4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25};
 
     for( int i = 0 ; i < nonPrimes.length(); i++){
 
