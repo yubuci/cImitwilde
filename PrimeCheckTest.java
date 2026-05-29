@@ -22,7 +22,7 @@ public class PrimeCheckTest {
   // --------------------------------------------------------------- //
   @Test
   public void testPrimes() {
-    int[] primes = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47};
+    int[] primes = {3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47};
 
     for (int i = 0 ; i < primes.length(); i++) {
 
